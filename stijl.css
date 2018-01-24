@@ -1,0 +1,261 @@
+@media (max-width: 800px) {
+  body {
+        font-family: 'Quicksand', sans-serif;
+        line-height: 2em;
+
+
+  }
+
+
+
+
+  .marmer {
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-image: url(file:///E:/E%20%20schijf/Bachelorette%20party/Website/marble-rosegold%20.jpg);
+        background-size: cover;
+        background-color: white;
+        opacity: 0.5;
+        height: 50vh;
+        position: relative
+
+  }
+  .logo {
+          margin-top: 10vh;
+          background-image: url(file:///E:/E%20%20schijf/Bachelorette%20party/Website/Logo%20design%20zonder%20achtergrond%20bijgesneden.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+
+
+          position: absolute;
+
+          top: 6vw;
+          left: 15vw;
+
+
+
+          width: 70vw;
+          height: 30vw;
+
+
+  }
+
+nav {
+          display: flex;
+          margin-left: 5vh;
+          margin-right: 5vh;
+
+          position: relative;
+          top: -50vh;
+
+
+
+}
+  nav a{
+
+          text-decoration: none;
+          color: black;
+
+          box-sizing: border-box;
+
+          width: 20vw;
+          padding: 2vh;
+  }
+  .foto {
+            background-image: url(file:///E:/E%20%20schijf/Bachelorette%20party/Website/SSSLXNZ1RQ.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+
+            height: 70vw;
+            width: 70vw;
+
+            margin-left: auto;
+            margin-right: auto;
+
+            margin-top: 4vh;
+
+  }
+  p, h2 {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2vh;
+
+
+      box-sizing: border-box;
+      width: 60vw;
+
+  }
+
+  p {
+      padding: 2vh;
+  }
+
+  h2 {
+      border-bottom: 1px solid black;
+      padding-bottom: 5vh;
+      padding-top: 3vh;
+
+      margin-left: auto;
+      margin-right: auto;
+
+      font-size: 1.5rem;
+      text-align: center;
+  }
+.booknow {
+
+
+      background-image: url(file:///E:/E%20%20schijf/Bachelorette%20party/Website/JYTTZMY9SC.jpg);
+      background-size: contain;
+
+      box-sizing: border-box;
+
+      display: block;
+      height: 60vw;
+      margin-bottom: 5vh;
+
+      position: relative;
+    }
+
+.booknow div{
+
+      color: black;
+
+      display: inline;
+      position: absolute;
+      bottom: 5vh;
+
+      width: 100vw;
+      text-align: center;
+
+      font-size: 2em;
+
+      background-color: rgba(255,255,255,0.8);
+      padding: 3vh;
+}
+
+footer {
+      margin: 7vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 2vh;
+      grid-template-areas:
+        "overons              .          "
+        ".                    logoklein"
+        "contactgegevens        .";
+
+
+}
+.overons {
+      grid-area: overons;
+}
+.logoklein {
+      grid-area: logoklein;
+      background-image: url(file:///E:/E%20%20schijf/Bachelorette%20party/Website/Logo%20design%20zonder%20achtergrond%20bijgesneden.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding:2vh;
+
+
+}
+.contactgegevens{
+      grid-area: contactgegevens;
+}
+
+}
+
+
+
+@media (min-width: 800px) {
+
+/**    main {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 0;
+
+          grid-template-areas:
+              "foto1    text1"
+              "foto2    text2"
+              "foto3    text3"
+              "foto4    text4"
+              "booknow  booknow";
+
+          margin: 0;
+
+      }
+
+      .sectie1 .tekst {
+        grid-area: text1;
+      }
+      .sectie1 .foto {
+        grid-area: foto1;
+      }
+      .sectie2 .tekst {
+        grid-area: text2;
+      }
+      .sectie2 .foto {
+        grid-area: foto2;
+      }
+      .sectie3 .tekst {
+        grid-area: text3;
+      }
+      .sectie3 .foto {
+        grid-area: foto3;
+      }
+      .sectie4 .tekst {
+        grid-area: text4;
+      }
+      .sectie4 .foto {
+        grid-area: foto4;
+      }
+      .booknow{
+        grid-area: booknow;
+      }
+
+
+
+**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
